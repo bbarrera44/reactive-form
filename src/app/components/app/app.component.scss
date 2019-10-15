@@ -1,0 +1,26 @@
+.contenedor{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+@media screen and (max-width: 800px){
+    .contenedor{
+        background: chartreuse;
+    }
+}
+/*para telefono*/
+@media screen and (max-width: 400px){
+    .contenedor{
+        width: 100%;
+    }
+    side{
+        display: none;
+    }
+
+}
+
