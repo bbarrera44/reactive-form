@@ -8,18 +8,25 @@
     
 }
 
+.form-rec{
+    text-align: left;
+    
+}
+
 @media screen and (max-width: 800px){
     .contenedor{
         background: chartreuse;
     }
+    .form-rec{
+        text-align: center;
+        
+    }
 }
-/*para telefono*/
+
 @media screen and (max-width: 400px){
     .contenedor{
         width: 100%;
-    }
-    side{
-        display: none;
+        text-align: center;
     }
 
 }
